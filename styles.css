@@ -228,3 +228,7 @@ p {
 .info-section li b {
     color: #333; /* Dark color for emphasis */
 }
+
+ul {
+    margin-bottom: 30px; /* Ajoute de la marge en bas de chaque ul */
+}
