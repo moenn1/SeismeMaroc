@@ -166,3 +166,54 @@ p {
 #graph {
     transition: 1s all ease-in-out ;
 }
+
+
+/* Styles for the blood donation locations */
+
+.main {
+    background-color: #f8f9fa; /* Light grey background for contrast */
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1100px; /* Constrain the width for readability */
+}
+
+.title h1 {
+    font-size: 2.5em;
+    color: #dc3545; /* Match the danger color */
+    margin-bottom: 30px; /* Space between title and card */
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Slight rounding of corners */
+}
+
+.card-body {
+    padding: 30px; /* Increase inner padding */
+}
+
+.info-section h4 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #dc3545; /* A subtle underline */
+    padding-bottom: 5px; /* Padding to space out the underline */
+    margin-bottom: 15px; /* Space between title and list */
+    margin-top: 30px; /* Space between sections */
+}
+
+.info-section ul {
+    list-style-type: none; /* Remove bullet points */
+    padding-left: 20px; /* Slight indent for the list */
+}
+
+.info-section li {
+    font-size: 1.1em;
+    margin-bottom: 10px; /* Space between list items */
+    line-height: 1.5; /* Improved readability */
+}
+
+.info-section li b {
+    color: #333; /* Dark color for emphasis */
+}
