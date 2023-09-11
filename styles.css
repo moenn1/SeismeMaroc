@@ -107,10 +107,21 @@ p {
 
 /* INDEX STYLES */
 
+/* Ensuring that the iframe container doesn't exceed the viewport's width */
 #indexcard {
-	padding-bottom: 5%;
-	padding-top: 5%;
+    max-width: 100%;
+    overflow-x: hidden; /* Ensuring no horizontal scrollbar appears */
 }
+
+/* Making the iframe responsive */
+#indexcard iframe {
+    width: 100%; /* Makes the iframe take the full width of its container */
+    height: auto;
+    min-height: 600px; /* You can adjust this value based on your preference */
+    border: 0; /* Removes any default borders */
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1); /* Optional: adds a slight shadow for some depth */
+}
+
 
 #overlay {
 	background-image: linear-gradient(
